@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  margin: 0;
+  height: 100vh;
+}
+
+.column-left,
+.column-right {
+  flex: 1;
+  border: 1px solid #ccc;
+}
+
+.column-right {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.column-right-elements {
+  flex: 1;
+  border: 1px solid #000;
+}
+
+#outputContainer {
+  margin-top: 10px;
+  white-space: pre-wrap;
+}
